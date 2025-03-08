@@ -24,18 +24,18 @@ class FancyHelloWorld(QMainWindow):
         self.title_label.setFont(QFont("Arial", 18, QFont.Bold))
 
         # Copyright label
-        self.copyright_label = QLabel("© Konstantin Bolotov", self)
+        self.copyright_label = QLabel("© Konstantin Bolotov 2025", self)
         copyright_font = QFont("Arial", 10)
         copyright_font.setItalic(True)
 
         # Align text in the center horizontally but keep it near bottom with layout
-        copyright_label.setAlignment(Qt.AlignCenter)
-        copyright_label.setFont(copyright_font)
+        self.copyright_label.setAlignment(Qt.AlignCenter)
+        self.copyright_label.setFont(copyright_font)
 
         # Add widgets to the layout
         layout.addWidget(self.title_label)
         layout.addStretch()
-        layout.addWidget(copyright_label)
+        layout.addWidget(self.copyright_label)
 
     def paintEvent(self, event):
         """Override paintEvent to draw a gradient background."""
