@@ -6,9 +6,7 @@ This software is a simple “Hello World” application with an enhanced visual 
 
 My purpose for creating this software was to learn more about event handling and drawing operations in a GUI framework. It also helped me practice structuring a project that can be easily extended for more complex features in the future.
 
-{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/VHpy7FdEW28)
 
 # Development Environment
 
